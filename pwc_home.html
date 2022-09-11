@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="pwc.css">
+        <link rel="icon" href="images/pwc_fav.png">
+        <title>PowerWashCo</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <header class="primary-header">
+                <div>
+                    <img src="images/PW.png" class="logo" title="pwc_logo">
+                </div>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="pwc_home.html">Home</a>
+                        <a href="#">Services</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <nav>
+                    <ul id="primary-navigation" class="primary-navigation">
+                        <li id="l_screen">
+                            <a href="pwc_home.html" class="active">Home</a>
+                        </li>
+                        <li id="l_screen">
+                            <a href="#">Services</a>
+                        </li>
+                        <li id="l_screen">
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li id="l_screen">
+                            <a href="#">Contact US</a>
+                        </li>
+                        <li class="s_screen">
+                            <span style="cursor: pointer; font-size: 2rem;" onclick="openNav()">
+                                <img src="images/menu_icon.png" id="menu_icon">
+                            </span>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="image_container">
+                <p class="intro_txt">Residential And Commercial Pressure Washing</p>
+            </div>
+
+            <div class="introduction">
+                <fieldset>
+                    <legend><h1>PowerWashCo</h1></legend>
+                <p>PowerWashCo is without peer or parallel when it comes to residential
+                   and commercial property maintenance. We are committed to providing an eco-
+                   friendly solution to your commercial and industrial property’s exterior 
+                   maintenance needs in Los Angeles, Orange County, and beyond! Whether it’s a 
+                   parking lot that needs to be pressure washed and protected with a sealant, a 
+                   residential solar panel cleaning, or a 12 story window washing, we will get the
+                   job done at zero cost to the environment. Hydro Pressure Washing will not stop 
+                   until we’ve made your property shine like the day it was born.</p>
+                </fieldset>
+            </div>
+
+        </div>
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            }
+            </script>
+
+    </body>
+</html>
